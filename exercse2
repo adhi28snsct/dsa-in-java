@@ -1,0 +1,23 @@
+import java.util.Hashtable;
+import java.util.HashSet;
+public class Main {
+    public static void main(String[] args) {
+     
+        Hashtable<String,String> table=new Hashtable<>();
+        table.put("TN","TamilNadu");
+        table.put("KL","Kerala");
+        table.put("KA","Karnataka");
+        for(String key:table.keySet()){
+            System.out.println(key+""+table.get(key));
+        }
+        HashSet<Integer>set=new HashSet();
+        set.add(2);
+        set.add(3);                       
+        set.add(4);
+        for(Integer i:set){
+            System.out.println(i);
+        }                       
+                               }                      
+                               }
+                               
+            
